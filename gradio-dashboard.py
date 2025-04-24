@@ -85,14 +85,14 @@ categories = ["All"] + sorted(books["simple_categories"].unique())
 tones = ["All"] + ["Happy", "Surprising", "Angry", "Suspenseful", "Sad"]
 
 with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
-    gr.Markdown("# Semantic book recommender")
+    gr.Markdown("# Panne Picks - a semantic book recommender")
 
     with gr.Row():
         user_query = gr.Textbox(label = "Please enter a description of a book:",
-                                placeholder = "e.g., A story about forgiveness")
+                                placeholder = "e.g., Any story containing a guy creating an app")
         category_dropdown = gr.Dropdown(choices = categories, label = "Select a category:", value = "All")
-        tone_dropdown = gr.Dropdown(choices = tones, label = "Select an emotional tone:", value = "All")
-        submit_button = gr.Button("Find recommendations")
+        tone_dropdown = gr.Dropdown(choices = tones, label = "Select an emotional tone for the story:", value = "All")
+        submit_button = gr.Button("Pick a book")
 
     gr.Markdown("## Recommendations")
     output = gr.Gallery(label = "Recommended books", columns = 8, rows = 2)
