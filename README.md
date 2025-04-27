@@ -24,3 +24,40 @@ This project was developed while completing the freeCodeCamp course,
 - **LLM fine-tuning and Hugging Face integration**
 
 ---
+
+## 🧙‍♂️ Project Structure
+
+| File | Description |
+| :--- | :--- |
+| `data-exploration.ipynb` | Data cleaning, removing empty spaces, shortening book descriptions |
+| `vector-search.ipynb` | Creating vector embeddings and building a vector database for semantic search |
+| `text-classification.ipynb` | Zero-shot text classification to tag books as Fiction or Non-Fiction |
+| `sentiment-analysis.ipynb` | Extracting emotional tone (joy, sadness, suspense, etc.) using LLMs |
+| `gradio-dashboard.py` | Full Gradio web app to browse and recommend books |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Programming Language:** Python 3.11
+- **Libraries & Frameworks:**
+  - `seaborn`
+  - `matplotlib`
+  - `pandas`
+  - `kaggle`
+  - `python-dotenv`
+  - `langchain-community`
+  - `langchain-opencv`
+  - `langchain-chroma`
+  - `transformers`
+  - `huggingface`
+  - `gradio`
+  - `notebook`
+  - `ipywidgets`
+- **Tools Used:**
+  - **Jupyter Notebook** for development
+  - **Gradio** for dashboard
+  - **Hugging Face** for LLMs
+  - **Kaggle** for datasets
+
+---
