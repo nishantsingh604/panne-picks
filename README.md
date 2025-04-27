@@ -61,3 +61,65 @@ This project was developed while completing the freeCodeCamp course,
   - **Kaggle** for datasets
 
 ---
+
+## 📂 Data Source
+
+- Book data is sourced from **Kaggle**.  
+- Detailed instructions for downloading the datasets are provided inside the repository.
+
+---
+
+## 📥 Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nishantsingh604/panne-picks.git
+   cd panne-picks
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Create a `.env` file in your root directory and add your OpenAI API key:
+
+   ```bash
+   OPENAI_API_KEY=your-openai-api-key-here
+   ```
+
+4. Launch Jupyter Notebook or run the Gradio dashboard:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   OR
+
+   ```bash
+   python gradio-dashboard.py
+   ```
+
+---
+
+## 🧐 How it Works
+
+- **Data Cleaning:** Remove unwanted entries and clean book descriptions.
+- **Vector Search:** Use semantic search to match user queries with similar book descriptions.
+- **Text Classification:** Predict whether a book is Fiction or Non-Fiction without labeled training data.
+- **Emotion Analysis:** Assign emotional scores (joy, sadness, fear, suspense, etc.) to each book.
+- **User Dashboard:** An interactive UI where users can input moods or search preferences to receive book recommendations.
+
+---
+
+## 🤝 Credits
+
+- **Course:** [freeCodeCamp - Build a Semantic Book Recommender with LLMs](https://www.freecodecamp.org/)
+- **Instructor:** [Patrick Loeber (@patrickloeber)](https://github.com/patrickloeber)
+- Thanks to the open-source community and Hugging Face for providing amazing LLM models!
+
+---
+
+
