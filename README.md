@@ -1,5 +1,5 @@
 # Panne-Picks 📚✨  
-*An AI-Powered Semantic Book Recommender*
+*An AI-Powered Semantic Book Recommender Which Uses Real Sentiment Analysis to Recommend Your Next Read*
 
 ---
 
@@ -7,9 +7,6 @@
 
 **Panne-Picks** is an intelligent, emotion-driven book recommendation system.  
 It uses advanced Natural Language Processing (NLP) and Machine Learning (ML) techniques, including **Large Language Models (LLMs)** and **Vector Search**, to help users find books matching their emotions, preferences, and interests.
-
-This project was developed while completing the freeCodeCamp course,  
-**"Build a Semantic Book Recommender with LLMs – Full Course."**
 
 ---
 
@@ -115,10 +112,7 @@ This project was developed while completing the freeCodeCamp course,
 ---
 
 ## 🤝 Credits
-
-- **Course:** [freeCodeCamp - Build a Semantic Book Recommender with LLMs](https://www.freecodecamp.org/)
 - **Instructor:** [Patrick Loeber (@patrickloeber)](https://github.com/patrickloeber)
-- Thanks to the open-source community and Hugging Face for providing amazing LLM models!
 
 ---
 
